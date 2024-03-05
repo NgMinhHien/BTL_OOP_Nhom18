@@ -7,9 +7,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class App {
-    String URL = "jdbc:mysql://localhost:3306/DS_Sinh_vien";
-    String user = "root";
-    String password = "";
+    static String URL = "jdbc:mysql://localhost:3306/";
+    static String user = "root";
+    static String password = "";
 
     public static void main(String[] args) {
         StudentManagement management = new StudentManagement();
@@ -143,7 +143,7 @@ class Student {
 
 class StudentManagement {
     List<Student> students = new ArrayList<>();
-    String url = "jdbc:mysql://localhost:3306/myDatabase";
+    String url = "jdbc:mysql://localhost:3306/";
     String user = "root";
     String password = "1234";
 
@@ -163,7 +163,7 @@ class StudentManagement {
 
             int rowsInserted = statement.executeUpdate();
             if (rowsInserted > 0) {
-                System.out.println("A new student was inserted successfully!");
+                System.out.println("Thanh cong!");
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
