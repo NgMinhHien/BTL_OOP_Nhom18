@@ -1,0 +1,12 @@
+MySQL Workbench
+1. Cài MySQL
+2. Setup server: để nguyên localhost và root, hỏi pass thì set 1234
+3. Vào connection xong insert file "Table activator.sql" và chạy file đấy (hình sấm sét) để tạo bảng
+4. Vào mục Navigator (Tab bên trái) > Instance > Startup/Shutdown > Start Server
+
+VSCode
+5. (Làm sẵn rồi thì skip) Extensions > Search bằng từ khóa "java" > Vào "Extension pack for Java" > Tải về
+6. Open FOLDER > Chọn file BTL > Mở rộng mục JAVA PROJECTS > Di chuột vào "Referenced Libraries" > Ấn + > Add file đuôi "jar" trong folder "Connector J 8.0"
+7. Chạy CT: Mở tab App.java > Run Java (Nút play)
+
+Note: Chỉ chạy được chương trình qua VSCode vì khi chạy qua terminal, CT sẽ ko hoạt động vì thiếu cái library đuôi jar.
